@@ -131,3 +131,32 @@
 // var title = "T-Shirt(s)";
 // var quantity = 5;
 // document.write(_name + " " + "ordered" + " " + quantity + " " + title + " " + "from XYZ Clothing Brand");
+
+// 1. Declare 3 variables in one statement.
+//  var a = 1 , b = 3, c = 4;
+//  document.write(b)
+
+// // 2. Declare 5 legal & 5 illegal variable names.
+//    var myName;
+//    var _age;
+//    var $const;
+//    var myScore;
+//    var myName1;
+
+//    var 1name;
+//    var &human;
+//    var %123;
+//    var GIT^;
+//    var name#;
+
+// 3. Display this in your browser
+// a. A heading stating “Rules for naming JS variables”
+// document.write("<h1> Rules for naming JS variables </h1>")
+// b. Variable names can only contain ______, ______, 
+// ______ and ______. 
+// For example $my_1stVariable
+// var $my_1stVariable;
+// c. Variables must begin with a ______, ______ or 
+// _____. For example $name, _name or name
+// d. Variable names are case ______Sensitive___
+// e. Variable names should not be JS ________
