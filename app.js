@@ -275,6 +275,85 @@
 // "Delivery Charges is" +" " + charges + "<br>"+
 // "The total cost is RS"+ " "+ result);
 
+//8. Write a script to take total marks & marks obtained by a 
+// student. Compute the percentage & show the result in your 
+// browser
+
+
+
+// var marksObtained = +prompt("Enter your Marks Obtained");
+// var totalMarks = +prompt("Enter your total Marks");
+// var result = marksObtained/totalMarks*100;
+// document.write("Marks Obtained : "+ " " + marksObtained + "<br>" + 
+// "Total Marks : "+ " " + totalMarks + "<br>" + "Percentage :" + " " + result.toFixed(2) +"%")
+
+
+//9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a script 
+// to convert the total currency to Pakistani Rupees. Perform all 
+// calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104 Pakistani Rupee and 
+// 1 Saudi Riyal = 28 Pakistani Rupee)
+
+
+// var dollar = +prompt("Enter Your Dollar");
+// var riyal = +prompt("Enter your Riyal");
+// var result = dollar*104 + riyal*28;
+// document.write("<h1>"+"Currency in PKR"+"</h1>" +"<br>"+ "Total Currency in PKR :" + " " + result);
+
+// //10. Write a program to initialize a variable with some number 
+// and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2 
+// Perform all calculations in a single expression
+
+// var num1 = 20;
+// var result = num1+5*10/2;
+// alert(result);
+
+
+//11. The Age Calculator: Forgot how old someone is? Calculate 
+// it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored values.
+// Output them to the screen like so: “They are either NN or NN 
+// years old”. 
+
+// var year = 2023;
+// var birth = 1997;
+// var result1 = (year - birth);
+// var result2 = (year - birth - 1);
+// document.write("<h1>"+ "The Age Calculator"+"</h1>"+ "<br>"+ "Curent Year:" + " "+year + "<br>" + "Birth year:" + " "+ birth + "<br>"+
+//     "She is either"+ " " + result1+" " +"or"+" "+ result2+" "+ "years old");
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and 
+// output “The circumference is NN”. 
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The area is 
+// NN”. (Hint : Area of a circle = π r2, π = 3.142
+//  var r = 12;
+//  var pie = 3.142;
+//  var circum = 2*pie*r;
+//  var area = pie*(r*r);
+//  document.write("<h1>"+ "The Geometrical Calculator"+"</h1>"+ "<br>"+ "Radius of a circle is:" + " "+ r + "<br>" + "Circumference of a circle is:" + " "+ circum + "<br>"+
+//      "The area is"+ " " + area);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
