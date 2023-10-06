@@ -157,6 +157,128 @@
 // For example $my_1stVariable
 // var $my_1stVariable;
 // c. Variables must begin with a ______, ______ or 
-// _____. For example $name, _name or name
-// d. Variable names are case ______Sensitive___
-// e. Variable names should not be JS ________
+// // _____. For example $name, _name or name
+// // d. Variable names are case ______Sensitive___
+// // e. Variable names should not be JS ____Keyword____
+
+
+// // 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.
+
+// // var num1 = +prompt("Enter your first number");
+// // var num2 = +prompt("Enter your second number");
+// // var result1 = num1 + num2 ;
+// //  alert("Sum of" + " " + num1 + " " + "and" + " " + num2 + " "+ "is"+ " " + result1);
+
+// //2. Repeat task1 for subtraction, multiplication, division & modulus. E.g.
+//  var num1 = +prompt("Enter your first number");
+// var num2 = +prompt("Enter your second number");
+// var result1 = num1 - num2 ;
+//  alert("Subtraction of" + " " + num1 + " " + "and" + " " + num2 + " "+ "is"+ " " + result1);
+
+
+//  var num1 = +prompt("Enter your first number");
+//  var num2 = +prompt("Enter your second number");
+//  var result1 = num1 * num2 ;
+//   alert("Multiplication of" + " " + num1 + " " + "and" + " " + num2 + " "+ "is"+ " " + result1);
+
+
+//   var num1 = +prompt("Enter your first number");
+//   var num2 = +prompt("Enter your second number");
+//   var result1 = num1 / num2 ;
+//    alert("Division of" + " " + num1 + " " + "and" + " " + num2 + " "+ "is"+ " " + result1);
+
+
+//    var num1 = +prompt("Enter your first number");
+//    var num2 = +prompt("Enter your second number");
+//    var result1 = num1 % num2 ;
+//     alert("Modulo of" + " " + num1 + " " + "and" + " " + num2 + " "+ "is"+ " " + result1);
+
+
+//     3. Do the following using JS Mathematic Expressions
+//     a. Declare a variable.
+//     b. Show the value of variable in your browser like “Value 
+//     after variable declaration is: ??”.
+//   //     c. Initialize the variable with some number.
+//     d. Show the value of variable in your browser like “Initial 
+//     value: 3”.
+//     e. Increment the variable.
+//     f. Show the value of variable in your browser like “Value 
+//     after increment is: 4”.
+//     g. Add 7 to the variable.
+//     h. Show the value of variable in your browser like “Value 
+//     after addition is: 11”.
+//     i. Decrement the variable.
+//     j. Show the value of variable in your browser like “Value 
+//     after decrement is: 10”.
+//     k. Show the remainder after dividing the variable’s value by 
+//     3. Output : “The remainder is : 1”
+
+// var myNum1 = "Value after variable declaration is 3 "
+// var myNum = 3;
+// var _name = "Initial Value is 3"
+// var _abc1 = "Value after increament is" + " " +  ++myNum;
+// var _abc2 = myNum + 7;
+// var _abc3 = "Value after addition is"+" "+ _abc2;
+// var _abc4 = "Value after decreament is" + " " +  --_abc2;
+//   document.write(myNum1 + "<br>" +_name+ "<br>" + _abc1 + "<br>" +_abc3 + "<br>" +_abc4)
+
+//4. Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets 
+// to a movie. Example output:
+
+//  var cost = 600;
+//  var userInput = +prompt("Enter Quantity");
+//  var result = 600*userInput;
+//  document.write("The Cost of" + " " + userInput+ " " + "tickets is" + " " + result + ""+ "PKR");
+
+//5. Write a script to display multiplication table of any number in your browser. E.g.
+//   var userInput = +prompt("Enter your number");
+//   for (let i = 1; i <= 10; i++) {
+//     document.write(userInput + " " + "x" + i+ " " + "=" + " " + userInput*i , "<br>")
+//   }
+    
+
+//6. The Temperature Converter: It’s hot out! Let’s make a 
+// converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+  
+// var userInput1 = +prompt("Enter Temperature in Celsius");
+// var convertIntoF = (userInput1*9)/5+32;
+// document.write(userInput1+ "C" + " " + "is" + convertIntoF +" "+"F");
+
+// var userInput1 = +prompt("Enter Temperature in F");
+// var convertIntoF = (userInput1-32)*5/9;
+// document.write(userInput1+ "F" + " " + "is" + convertIntoF +" "+"C");
+
+// 7. Write a program to implement checkout process of a shopping 
+// cart system for an e-commerce website. Store the following in 
+// variables
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+// Compute the total cost & show the receipt in your browser
+
+// var price1 = 560;
+// var price2 = 200;
+// var userInput1 = +prompt("Enter the quantity of item no 1");
+// var userInput2 = +prompt("Enter the quantity of item no 2");
+// var charges = 150;
+// var result = userInput1*560 + userInput2*200 + charges;
+// document.write("Price of item no 1 is" +" " + price1 + "<br>"+
+// "Quantity of item no 1 is" +" " + userInput1 + "<br>"+
+// "Price of item no 2 is" +" " + price2 + "<br>"+
+// "Quantity of item no 2 is" +" " + userInput2 + "<br>"+
+// "Delivery Charges is" +" " + charges + "<br>"+
+// "The total cost is RS"+ " "+ result);
+
+
+
+
+
+
+
+
