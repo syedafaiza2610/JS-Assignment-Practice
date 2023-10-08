@@ -342,6 +342,78 @@
 //      "The area is"+ " " + area);
 
 
+//13. Write a program to take a number in a variable, do the 
+// required arithmetic to display the following result in your 
+// browser:
+
+//  var a = 10;
+//  document.write("The Value of a is:"+ " "+ a + "<br>"+"<hr>"+
+//  "The Value of ++a is:"+ " "+ ++a + "<br>"+
+//  "Now the  Value of a is:"+ " "+ a + "<br>"+"<hr>"+
+//  "The Value of a++ is:"+ " "+ a++ + "<br>"+
+//  "Now the  Value of a is:"+ " "+ a++ + "<br>"+"<hr>"+
+//  "The Value of --a is:"+ " "+ --a + "<br>"+
+//  "Now the  Value of a is:"+ " "+ --a + "<br>"+"<hr>"+
+//  "The Value of a-- is:"+ " "+ a-- + "<br>"+
+//  "Now the  Value of a is:"+ " "+ a-- + "<br>");
+
+
+
+
+//  14. What will be the output in variables a, b & result after 
+//  execution of the following script:
+//   var a = 2, b = 1;
+//   var result = --a - --b + ++b + b--;
+//  Explain the output at each stage:
+//   --a;
+//   --a - --b;
+//   --a - --b + ++b;
+//   --a - --b + ++b + b--;
+
+// var a = 2, b = 1;
+//   var result = --a - --b + ++b + b--;
+//   document.write("Value of a is : " + "1" + "<br>"+"Value of b is : " + "0" + "<br>"+ "result is : "+result);
+
+
+
+
+// 15. The Lifetime Supply Calculator: Ever wonder how 
+// much a “lifetime supply” of your favorite snack is? Wonder no 
+// more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of 
+// your life.
+// MATH	EXPRESSIONS |	JAVASCRIPT
+// Page	11 of	11
+// Output the result to the screen like so: “You will need NNNN to 
+// last you until the ripe old age of NN”.
+
+
+// var snack = prompt("Enter Your favourite Snack");
+// var age = +prompt("Enter Your Current age");
+// var maxAge = +prompt("Enter Your maximun Age");
+// var amount = +prompt("Enter Your  estimated amount per day");
+// var result = (maxAge-age)*amount;
+// document.write("<h1>"+ "The Lifetime Supply Calculator:"+"</h1>" + "<br>" +
+// "Favourite Snack:" + " " + snack + "<br>" + 
+// "Current Age:" + " " + age + "<br>" +
+// "Maximum Age:" + " " + maxAge + "<br>" +
+// "Amount of Snacks per day:" + " " + amount + "<br>" +
+// "You will need"+" " +result+" " +"to last you until the ripe old age of"+ " "+maxAge);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
