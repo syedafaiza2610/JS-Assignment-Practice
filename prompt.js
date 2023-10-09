@@ -131,6 +131,147 @@
 // Less than 60 Fail Sorry
 // Show the total marks, marks obtained, percentage, grade & 
 // remarks like
+// var marksObtained = +prompt("Enter your Obtained Marks");
+// var totalMarks = +prompt("Enter your Total Marks");
+// var per = (marksObtained/totalMarks*100);
+//  var grade = "";
+//  var remarks = "";
+// if(per >= 80 && per < 101){
+//     grade = "A+";
+//     remarks ="Excellent";
+//  }
+//  else if(per >=70 && per < 81){
+//     grade = "A";
+//     remarks ="Good";
+//  }
+//  else if(per >=60 && per < 71){
+//     grade = "B";
+//     remarks ="Fair";
+//  }
+//  else if(per >=50 && per < 61){
+//     grade = "C";
+//     remarks ="Need More Improvement";
+//  }
+//  else if(per >=40 && per < 51){
+//     grade = "D";
+//     remarks ="Not Satisfactory";
+//  }
+//  else if(per >= 101){
+//     grade = "Invalid percentage";
+//  }
+//  else{
+//     grade = "Fail";
+//     remarks ="Sorry"
+//  }
+
+//  document.write("<h1>"+ "MarkSheet" + "</h1>"+ "<br>"+
+//  "Marks Obtained :" +" "+ marksObtained + "<br>" +
+//  "Total Marks :" +" "+ totalMarks + "<br>" +
+//  "Percentage :" +" "+ per.toFixed(2) + "%"+ "<br>" +
+//  "Grade :" +" "+ grade + "<br>" +
+//  "Remarks :" +" "+ remarks+ "<br>" );
+ 
+
+// //10. Write a program to implement checkout process of a 
+// shopping cart system for an e-commerce website. Take input 
+// from users, the following: 
+// a. Name of item1 
+// b. Name of item2
+// c. Price of item 1
+// d. Price of item 2
+// e. Ordered quantity of item 1
+// f. Ordered Quantity of item 2
+// g. Shipping charges
+// Compute the total cost. If the total cost is above 2000 PKR ,
+// offer them 10% discount & show the receipt in your browser
+
+
+var item1Name = prompt("Enter the name of item1");
+var item2Name = prompt("Enter the name of item2");
+var item1Quantity = +prompt("Enter the quantity of item1");
+var item2Quantity = +prompt("Enter the quantity of item2");
+var item1price = 1000;
+var item2price = 700;
+var shippingCharges = 250;
+var totalCostBeforeDiscount = (item1price * item1Quantity + item2price * item2Quantity) + shippingCharges;
+var discount = 0.1 * totalCostBeforeDiscount;
+    var totalCostAfterDiscount = totalCostBeforeDiscount - discount;
+// var discount = total*10/100;
+
+if (totalCostBeforeDiscount > 2000) {
+    
+    document.write("<h1>" + "A Shopping Cart" + "</h1>" + "<br>" +
+"Price of item 1 " + " " + item1Name + " " + "is:" + " "+ item1price +"<br>" +
+"Quantity of item 1 " + " " + item1Name + " " + "is:" + " "+ item1Quantity+ "<br>" +
+"Price of item 2 " + " " + item2Name + " " + "is:" +" "+ item2price +"<br>" +
+"Quantity of item 2 " + " " + item2Name + " " + "is:" + " "+item2Quantity + "<br>" +
+"Shipping Charges " + " " + " " + "is:" +" "+ shippingCharges + "<br>" +"<br>"+
+"Total cost of your order " + " " + "is:" + " "+totalCostBeforeDiscount+ "<br>" +
+"Discounted cost of your order " + " " + "is:"+ totalCostAfterDiscount+ "<br>" 
+)
+}
+else{
+    document.write("<h1>" + "A Shopping Cart" + "</h1>" + "<br>" +
+    "Price of item 1 " + " " + item1Name + " " + "is:" + " "+ item1price +"<br>" +
+    "Quantity of item 1 " + " " + item1Name + " " + "is:" + " "+ item1Quantity+ "<br>" +
+    "Price of item 2 " + " " + item2Name + " " + "is:" +" "+ item2price +"<br>" +
+    "Quantity of item 2 " + " " + item2Name + " " + "is:" + " "+item2Quantity + "<br>" +
+    "Shipping Charges " + " " + " " + "is:" +" "+ shippingCharges + "<br>" +"<br>"+
+    "Total cost of your order " + " " + "is:" + " "+totalCostBeforeDiscount+ "<br>" 
+    )
+}
+
+
+
+// } else {
+//     total;
+// }
+// document.write("<h1>" + "A Shopping Cart" + "</h1>" + "<br>" +
+// "Price of item 1 :" + " " + item_name1 + " " + "is" + price1 +"<br>" +
+// "Quantity of item 1 :" + " " + item_name1 + " " + "is" + quantityitem_1 + "<br>" +
+// "Price of item 2 :" + " " + item_name2 + " " + "is" + price2 +"<br>" +
+// "Quantity of item 2 :" + " " + item_name2 + " " + "is" + quantityitem_2 + "<br>" +
+// "Shipping Charges :" + " " + " " + "is" + delivery_charges + "<br>" +"<br>"+
+// "Total cost of your order :" + " " + "is" + total+ "<br>" 
+// )
+
+// 11. Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable. 
+// Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct 
+// answer”. 
+// b. If the guessed number +1 is the secret number, show 
+// “Close enough to the correct answer”
+
+
+
+// var num1 = +prompt("Enter your number");
+// if (num1 === 1) {
+//     alert("Bingo! Correct answer")
+// } 
+// else if(num1 > 1){
+//     alert("Close enough to the correct answer")
+// }
+// else if(num1 < 1){
+//     alert("Close enough to the correct answer")
+// } 
+// else{
+
+// }
+//12. Write a program to check whether the given number is 
+// divisible by 3. Show the message to the user if the number is 
+// divisible by 3
+ 
+// var num1 = +prompt("Enter your number");
+// if (num1 %3 === 0 ) {
+//     alert("Number is divisible by 3")
+// } 
+// else{
+//     alert("not divisible by 3")
+// }
+
+
+
 
 
 
