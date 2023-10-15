@@ -1,6 +1,6 @@
 
 
-// // Define the range for even numbers (start and end)
+// // // Define the range for even numbers (start and end)
 // const start = 1;   // The first even number
 // const end = 19;    // The last even number you want to generate
 
