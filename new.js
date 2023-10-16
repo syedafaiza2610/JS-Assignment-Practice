@@ -23,7 +23,7 @@
 
 
 // // Define the number of rows for the triangle
-// const numRows = 17; // Change this to adjust the height of the triangle
+// const numRows = 5; // Change this to adjust the height of the triangle
 
 // // Use nested loops to print the star pattern
 // for (let i = 1; i <= numRows; i++) {

@@ -103,9 +103,9 @@
 //   }
 
 
-  for (let i = 2000; i <= 20000; i+2000) {
-    console.log(i);
-  }
+  // for (let i = 2; i <= 2; i+2) {
+  //   console.log(i);
+  // }
 
 
 
